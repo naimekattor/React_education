@@ -51,8 +51,8 @@ const Footer = () => {
           </div>
           <hr />
           <div className="flex justify-between mt-[30px] text-white">
-            <h2 className="text-[14px] font-secondary tracking-wide flex-1">© Copyright 2024 Eduka All Rights Reserved.</h2>
-            <div className="flex gap-x-2 text-primary text-[26px] cursor-pointer flex-1">
+            <h2 className="text-[14px] font-secondary tracking-wide ">© Copyright 2024 Eduka All Rights Reserved.</h2>
+            <div className="flex gap-x-2 text-primary md:text-[26px] text-[16px] cursor-pointer ">
               <div className="bg-white p-4 rounded-t-[50px] rounded-r-[50px] hover:bg-secondary">
                 <FaFacebook />
               </div>
