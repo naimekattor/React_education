@@ -28,7 +28,7 @@ const NavLinks = ({ setNavBar }) => {
               list.submenu && (<div className="hidden group-hover:block hover:block absolute top-[90px] border-t-4 border-red-700 bg-secondary w-[200px] p-4 z-10">
                 <ul className="   text-white ">
                   {list.subLink.map((sublist) =>
-                    <NavLink onClick={() => setNavBar(false)} to={sublist.url} key={sublist.name}>
+                    <NavLink to={sublist.url} key={sublist.name}>
                       <li className="text-[14px] font-secondary font-semibold text-white mb-2 px-4 cursor-pointer duration-300 hover:text-primary border-b-2" >
                         {sublist.name}
                       </li>
