@@ -7,9 +7,9 @@ const Courses = () => {
     <section>
       <div className=' container mx-auto'>
         <div className='mt-[60px] text-center'>
-          <h2 className=' text-[28px] text-primary font-semibold font-primary tracking-widest  relative '><span className=' absolute bottom-0 bg-primary h-1 w-[150px]' /> Our Courses</h2>
-          <h1 className=' font-primary mb-[10px] text-[58px] font-bold'>Let's Check Our <span className='text-primary'>Courses</span>  You More.</h1>
-          <p className='text-secondary text-[16px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
+          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest  relative '><span className=' absolute bottom-0 bg-primary h-1 w-[150px]' /> Our Courses</h2>
+          <h1 className=' font-primary mb-[10px] lg:text-[72px] md:text-[60px] text-[50px] font-bold'>Let's Check Our <span className='text-primary'>Courses</span>  You More.</h1>
+          <p className='text-secondary lg:text-[18px] md:text-[16px] text-[14px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           {
