@@ -22,9 +22,9 @@ const About = () => {
           </div>
         </div>
         <div className='flex-1'>
-          <h2 className=' text-[28px] text-primary font-semibold font-primary tracking-widest border-b-4 border-[#fda345] md:w-[100px] w-[150px]'>About Us</h2>
-          <h1 className=' font-primary mb-[10px] text-[58px] font-bold'>Our Education System <br /><span className='text-primary'>Inspires</span>  You More.</h1>
-          <p className='text-secondary text-[16px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
+          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest border-b-4 border-[#fda345] md:w-[100px] w-[150px]'>About Us</h2>
+          <h1 className=' font-primary mb-[10px] lg:text-[72px] md:text-[60px] text-[50px] font-bold'>Our Education System <br /><span className='text-primary'>Inspires</span>  You More.</h1>
+          <p className='text-secondary lg:text-[18px] md:text-[16px] text-[14px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
           <div className='flex md:flex-row flex-col gap-4'>
             <div className='flex flex-col'>
               <div className='flex gap-4 justify-start'>
