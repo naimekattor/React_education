@@ -38,9 +38,9 @@ const Intro = () => {
           <button onClick={handleLeft} className="absolute p-4 bg-white/50 rounded-full md:left-8   hidden md:block"><FaArrowLeft /></button>
           <button onClick={handleRight} className="absolute p-4 bg-white/50 rounded-full md:right-8  hidden md:block right-2"><FaArrowRight /></button>
           <div className=" absolute container  lg:mx-[183px]  ">
-            <h2 className=" text-[35px] font-primary text-primary font-semibold">Welcome To Eduka!</h2>
-            <h1 className="text-[72px] font-primary text-white font-semibold my-[20px]">Start Your Beautiful And <br /> <span className=" text-primary"> Bright </span>Future</h1>
-            <p className="text-[18px] font-primary text-white font-semibold mb-[20px] w-1/2">
+            <h2 className=" lg:text-[35px] md:text-[30px] text-[25px] font-primary text-primary font-semibold">Welcome To Eduka!</h2>
+            <h1 className="lg:text-[72px] md:text-[60px] text-[50px] font-primary text-white font-semibold my-[20px]">Start Your Beautiful And <br /> <span className=" text-primary"> Bright </span>Future</h1>
+            <p className="lg:text-[18px] md:text-[16px] text-[14px] font-primary text-white font-semibold mb-[20px] w-1/2">
               There are many variations of passages orem psum available but the majority have
               suffered alteration in some repeat predefined chunks form
               injected humour.
