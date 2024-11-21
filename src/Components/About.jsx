@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section>
       <div className='flex xl:flex-row flex-col gap-x-4 mt-[200px] container mx-auto'>
-        <div className='flex gap-4 flex-1'>
+        <div className='flex md:flex-row flex-col gap-4 flex-1'>
           <div className='flex flex-col gap-4'>
             <img className=' rounded-t-[50px] rounded-l-[50px] h-[266px] w-[100%]' src={img1} alt="" />
             <div className='flex gap-4 p-4 bg-primary rounded-t-[50px] rounded-r-[50px]'><span className=''><img className='p-2 w-[150px] h-[65px]  bg-white  rounded-full' src={icon1} alt="" /></span><span className=' text-[18px] text-white font-secondary font-semibold'>30 Years Of
@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <div className='flex-1'>
-          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest border-b-4 border-[#fda345] md:w-[100px] w-[150px]'>About Us</h2>
+          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest border-b-4 border-[#fda345]  md:w-[200px] w-[130px]'>About Us</h2>
           <h1 className=' font-primary mb-[10px] lg:text-[72px] md:text-[60px] text-[50px] font-bold'>Our Education System <br /><span className='text-primary'>Inspires</span>  You More.</h1>
           <p className='text-secondary lg:text-[18px] md:text-[16px] text-[14px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
           <div className='flex md:flex-row flex-col gap-4'>

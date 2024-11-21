@@ -50,9 +50,9 @@ const Footer = () => {
             </div>
           </div>
           <hr />
-          <div className="flex md:flex-row flex-col-reverse gap-4 justify-between mt-[30px] text-white">
+          <div className="flex md:flex-row flex-col-reverse gap-4 items-center justify-between mt-[30px] text-white">
             <h2 className="text-[14px] font-secondary tracking-wide ">© Copyright 2024 Eduka All Rights Reserved.</h2>
-            <div className="flex gap-x-2 text-primary md:text-[26px] text-[16px] cursor-pointer ">
+            <div className="flex gap-x-2 text-primary text-[26px] cursor-pointer">
               <div className="bg-white p-4 rounded-t-[50px] rounded-r-[50px] hover:bg-secondary">
                 <FaFacebook />
               </div>

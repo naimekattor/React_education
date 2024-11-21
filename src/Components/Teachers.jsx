@@ -10,11 +10,11 @@ const Teachers = () => {
           <SectionHeader about="Our Teachers" head="Meet With Our" pHead="Teachers" des="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
         </div>
 
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4'>
+        <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 place-items-center'>
           {
             teacher.map((curElem) => (
-              <div key={curElem.url} className='rounded-t-[50px] rounded-r-[50px] drop-shadow-lg bg-primary relative group hover:-translate-y-6 duration-300'>
-                <img className='w-[246px] h-[302px] rounded-t-[50px] rounded-r-[50px] drop-shadow-lg' src={curElem.url} alt="" />
+              <div key={curElem.url} className='rounded-t-[50px] rounded-r-[50px] drop-shadow-lg bg-primary relative group hover:-translate-y-6 duration-300 mb-6'>
+                <img className='w-[300px] h-[350px] rounded-t-[50px] rounded-r-[50px] drop-shadow-lg' src={curElem.url} alt="" />
                 <div className='absolute top-4 right-2 translate-x-full group-hover:translate-x-0 hidden group-hover:flex flex-col gap-4 cursor-pointer duration-500'>
                   <FaFacebookF className=' text-white rotate-12 text-3xl bg-secondary rounded-t-[50px] rounded-r-[50px] hover:bg-white hover:text-primary' />
                   <FaXTwitter className=' text-white rotate-12 text-3xl bg-secondary rounded-t-[50px] rounded-r-[50px] hover:bg-white hover:text-primary' />

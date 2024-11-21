@@ -35,10 +35,10 @@ const Intro = () => {
     <section className="relative">
       <div className="  w-[100%] h-screen bg-cover" style={{ backgroundImage: `url(${imgData[imgIndx].url})` }}>
         <div className="flex relative items-center h-full bg-[#394761]/80">
-          <button onClick={handleLeft} className="absolute p-4 bg-white/50 rounded-full md:left-8   hidden md:block"><FaArrowLeft /></button>
-          <button onClick={handleRight} className="absolute p-4 bg-white/50 rounded-full md:right-8  hidden md:block right-2"><FaArrowRight /></button>
-          <div className=" absolute container  lg:mx-[183px]  ">
-            <h2 className=" lg:text-[35px] md:text-[30px] text-[25px] font-primary text-primary font-semibold">Welcome To Eduka!</h2>
+          <button onClick={handleLeft} className="absolute p-4 bg-white/50 rounded-full lg:left-8   hidden lg:block"><FaArrowLeft /></button>
+          <button onClick={handleRight} className="absolute p-4 bg-white/50 rounded-full lg:right-8  hidden lg:block right-2"><FaArrowRight /></button>
+          <div className=" absolute container  xl:mx-[183px]  ">
+            <h2 className=" lg:text-[35px] md:text-[30px] text-[25px]  font-primary text-primary font-semibold">Welcome To Eduka!</h2>
             <h1 className="lg:text-[72px] md:text-[60px] text-[50px] font-primary text-white font-semibold my-[20px]">Start Your Beautiful And <br /> <span className=" text-primary"> Bright </span>Future</h1>
             <p className="lg:text-[18px] md:text-[16px] text-[14px] font-primary text-white font-semibold mb-[20px] w-1/2">
               There are many variations of passages orem psum available but the majority have
@@ -59,10 +59,10 @@ const Intro = () => {
 
 
       </div>
-      <div className="md:grid xl:grid-cols-4 md:grid-cols-2 hidden items-center justify-center gap-8 absolute md:bottom-[-130px] bottom-[-100px] left-[220px] md:left-0">
+      <div className="md:grid 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center xl:gap-6 md:gap-4 gap-y-16 w-full relative lg:bottom-0 xl:bottom-10 ">
         {
           feature.map((CurElem) => (
-            <div className="bg-white drop-shadow-md w-[400px] rounded-t-[50px] rounded-r-[50px] p-4 hover:-translate-y-4 duration-300" key={CurElem.title}>
+            <div className="bg-white drop-shadow-md w-[400px] rounded-t-[50px] rounded-r-[50px] p-4 hover:-translate-y-4 duration-300 mb-[20px]" key={CurElem.title}>
               <div className="flex justify-between"><span><img className="w-[60px] h-[60px] p-4 bg-primary rounded-full mb-[25px] cursor-pointer hover:rotate-[360deg] duration-300" src={CurElem.icon} alt="" /></span><span><img className="w-[60px] h-[60px] cursor-pointer hover:rotate-[360deg] duration-300" src={CurElem.numIcon} alt="" /></span></div>
               <h2 className=" text-black font-primary text-[28px] font-semibold mb-[20px]">{CurElem.title}</h2>
               <p className=" text-black text-[16px] font-secondary">{CurElem.description}</p>

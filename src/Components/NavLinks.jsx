@@ -18,14 +18,14 @@ const NavLinks = ({ setNavBar }) => {
 
   return (
     <div>
-      <ul className="flex lg:flex-row flex-col justify-between gap-8 z-20">
+      <ul className="flex lg:flex-row flex-col md:gap-x-2 lg:gap-x-3 xl:gap-x-4 justify-between z-20">
         {navList.map((list) =>
           <div key={list} className=" relative group">
-            <li className="text-[17px] text-secondary font-secondary font-semibold mr-4 cursor-pointer hover:text-[#116e63] flex items-center relative py-8
+            <li className="text-[17px] text-secondary font-secondary font-semibold md:mr-1 mr-4 cursor-pointer hover:text-[#116e63] flex items-center relative py-8
              ">{list.name}<span><IoIosArrowDown /></span>
             </li>
             {
-              list.submenu && (<div className="hidden group-hover:block hover:block absolute top-[90px] border-t-4 border-red-700 bg-secondary w-[200px] p-4 z-10">
+              list.submenu && (<div className="hidden group-hover:block hover:block absolute top-[90px] border-t-4 border-[#fda345] bg-secondary w-[200px] p-4 z-10">
                 <ul className="   text-white ">
                   {list.subLink.map((sublist) =>
                     <NavLink to={sublist.url} key={sublist.name}>
@@ -40,14 +40,14 @@ const NavLinks = ({ setNavBar }) => {
             }
             {
               list.submenu_academics && (
-                <div className="hidden group-hover:flex hover:flex  gap-x-4 justify-center items-start absolute top-[90px] left-[-100%] border-t-4 border-red-700 bg-secondary p-4 z-10">
-                  <div className="flex lg:flex-row flex-col gap-4">
-                    <div className="p-4 w-[300px] ">
+                <div className="hidden group-hover:flex hover:flex justify-center absolute top-[90px] w-full items-center z-10">
+                  <div className="flex lg:flex-row flex-col gap-4 bg-secondary border-t-4 border-[#fda345] p-[30px]">
+                    <div className="p-4  flex-1">
                       <h2 className="text-[18px] font-secondary font-semibold text-primary mb-2 uppercase">About Us</h2>
                       <img className="w-[140px]" src={logo} alt="" />
                       <p className="text-[14px] text-white font-secondary mt-4">We are many variations of passages available but the majority have suffered alteration in some form by injected humour words injected humour believable.</p>
                     </div>
-                    <div className="w-[200px]">
+                    <div className="p-4 flex-1">
                       <h2 className="text-[18px] font-secondary font-semibold text-primary mb-4 uppercase">Undergraduate</h2>
                       <ul>
                         {
@@ -55,7 +55,7 @@ const NavLinks = ({ setNavBar }) => {
                         }
                       </ul>
                     </div>
-                    <div className="w-[200px]">
+                    <div className="p-4 flex-1">
                       <h2 className="text-[18px] font-secondary font-semibold text-primary mb-4 uppercase">Graduate Program</h2>
                       <ul>
                         {
@@ -63,7 +63,7 @@ const NavLinks = ({ setNavBar }) => {
                         }
                       </ul>
                     </div>
-                    <div className="w-[200px]">
+                    <div className="p-4 flex-1">
                       <h2 className="text-[18px] font-secondary font-semibold text-primary mb-4 uppercase">Resourses</h2>
                       <ul>
                         {

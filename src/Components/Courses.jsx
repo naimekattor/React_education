@@ -7,17 +7,17 @@ const Courses = () => {
     <section>
       <div className=' container mx-auto'>
         <div className='mt-[60px] text-center'>
-          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest  relative '><span className=' absolute bottom-0 bg-primary h-1 w-[150px]' /> Our Courses</h2>
+          <h2 className=' lg:text-[35px] md:text-[30px] text-[25px] text-primary font-semibold font-primary tracking-widest  relative '><span className=' absolute bottom-0 bg-primary h-1 w-[150px] ' /> Our Courses</h2>
           <h1 className=' font-primary mb-[10px] lg:text-[72px] md:text-[60px] text-[50px] font-bold'>Let's Check Our <span className='text-primary'>Courses</span>  You More.</h1>
           <p className='text-secondary lg:text-[18px] md:text-[16px] text-[14px] font-secondary my-4'>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable. If you are going to use passage.</p>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 place-items-center">
           {
             courseData.map((curElem) => (
               <div key={curElem.url} className=" drop-shadow-lg p-4 rounded-t-[50px] rounded-r-[50px] bg-white group">
-                <div className=" relative">
-                  <img className="w-[336px] h-[224px] rounded-t-[50px] rounded-r-[50px] group-hover:origin-top-right cursor-pointer" src={curElem.url} alt="" />
-                  <div className=" absolute w-[336px] h-[224px] rounded-t-[50px] rounded-r-[50px]  top-0 bg-none group-hover:bg-blue-300/50 cursor-pointer flex items-center justify-center" >
+                <div className=" relative flex items-center w-full justify-center">
+                  <img className="w-full h-[224px] rounded-t-[50px] rounded-r-[50px] group-hover:origin-top-right cursor-pointer" src={curElem.url} alt="" />
+                  <div className=" absolute w-full h-full rounded-t-[50px] rounded-r-[50px]  top-0 bg-none group-hover:bg-blue-300/50 cursor-pointer flex items-center justify-center" >
                     <span className="bg-white p-2 rounded-full text-primary text-2xl hidden group-hover:block hover:bg-primary hover:text-white"><FaStaylinked /></span>
                   </div>
                 </div>

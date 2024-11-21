@@ -9,7 +9,7 @@ const Gallery = () => {
         <div className='text-center'>
           <SectionHeader about="Gallery" head="Our Photo" pHead=" Gallery" des="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
         </div>
-        <div className='grid md:grid-cols-3 grid-cols-1 gap-4 py-4'>
+        <div className='grid md:grid-cols-3 grid-cols-1 gap-4 py-4 place-items-center'>
           {
             gallery.map((curElem) => (
               <div key={curElem.url} className='relative group'>
