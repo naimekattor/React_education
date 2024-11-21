@@ -14,7 +14,7 @@ const Teachers = () => {
           {
             teacher.map((curElem) => (
               <div key={curElem.url} className='rounded-t-[50px] rounded-r-[50px] drop-shadow-lg bg-primary relative group hover:-translate-y-6 duration-300 mb-6'>
-                <img className='w-[300px] h-[350px] rounded-t-[50px] rounded-r-[50px] drop-shadow-lg' src={curElem.url} alt="" />
+                <img className='w-[350px] h-[350px] rounded-t-[50px] rounded-r-[50px] drop-shadow-lg' src={curElem.url} alt="" />
                 <div className='absolute top-4 right-2 translate-x-full group-hover:translate-x-0 hidden group-hover:flex flex-col gap-4 cursor-pointer duration-500'>
                   <FaFacebookF className=' text-white rotate-12 text-3xl bg-secondary rounded-t-[50px] rounded-r-[50px] hover:bg-white hover:text-primary' />
                   <FaXTwitter className=' text-white rotate-12 text-3xl bg-secondary rounded-t-[50px] rounded-r-[50px] hover:bg-white hover:text-primary' />
